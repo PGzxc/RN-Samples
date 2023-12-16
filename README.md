@@ -18,8 +18,12 @@
 ```
 npx expo start
 ```
+## 五 版本说明
+* v1.0:常用API和组件
+* v2.0：将React Native迁移到expo项目
+* v3.0:toast工具及Login页面
 
-## 五 备注
+## 六 备注
 
 * 之前使用npx创建React Native项目，现在改为expo项目
 

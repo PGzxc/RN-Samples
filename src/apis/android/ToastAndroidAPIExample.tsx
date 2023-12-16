@@ -26,13 +26,13 @@ const ToastAndroidAPIExample = () => {
 
     return (
         <View style={styles.container}>
-            <Button title="Toggle Toast" onPress={() => showToast()} />
+            <Button title="Toggle ToastsScreen" onPress={() => showToast()} />
             <Button
-                title="Toggle Toast With Gravity"
+                title="Toggle ToastsScreen With Gravity"
                 onPress={() => showToastWithGravity()}
             />
             <Button
-                title="Toggle Toast With Gravity & Offset"
+                title="Toggle ToastsScreen With Gravity & Offset"
                 onPress={() => showToastWithGravityAndOffset()}
             />
         </View>
