@@ -9,12 +9,16 @@ import {ToastProvider} from 'react-native-toast-notifications'
 import {ToastExample} from "./src/utils/ToastExample";
 import {ToastNotify} from "./src/utils/ToastNotify";
 import HomeToast from "./src/utils/HomeToast";
+import SwiperFlatlist from "./src/example/SwiperFlatlist";
+import SegmentControl from "./src/example/SegmentControl";
+import TabNavigation from "./src/example/TabNavigation";
+import GridSample from "./src/example/GridSample";
 
 
 export default function App() {
     return (
         <ToastProvider>
-            <HomeToast/>
+            <SwiperFlatlist/>
         </ToastProvider>
     );
 }
